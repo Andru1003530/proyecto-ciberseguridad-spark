@@ -1,0 +1,19 @@
+# Entorno virtual de Python
+venv/
+
+# Dataset original
+UNSW_NB15_training-set.csv
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Checkpoints de Spark Streaming
+checkpoint_streaming/
+checkpoint*/
+
+# Resultados locales
+resultados_batch.txt
+
+# Configuración local
+.DS_Store
